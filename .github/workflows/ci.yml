@@ -1,0 +1,9 @@
+name: ci
+on: [push]
+permissions:
+  contents: read
+jobs:
+  hello:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "sandbox"
